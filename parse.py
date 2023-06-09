@@ -19,7 +19,7 @@ def parse(client, session, queries):
             print(f'url: {url}')
             gptanswer = gpt.questions_togpt(title, description, session, queries)
             print(f'answer: {gptanswer}')
-            answer = f'Привет, на твой вопрос отвечает ChatGPT-4. Ответ может быть неправильным/некорректным/ошибочным.\n\n{gptanswer}\n\nby_chesnok | github.com/chesnokpeter/otvetmailru_answering_machine'
+            answer = f'Привет, на твой вопрос отвечает ChatGPT-4. Ответ может быть неправильным/некорректным/ошибочным.\n\n{gptanswer}\n\nby_chesnok'
 
             try:
                 client.add_answer(question, answer)
