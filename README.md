@@ -22,6 +22,7 @@ If you have problems with the installation, you can write to me, tg:@chesnokpete
 1. Download or clone this GitHub repo
     ```
     git clone https://github.com/chesnokpeter/otvetmailru_answering_machine.git
+    cd otvetmailru_answering_machine
     ```
 2. Sign up: https://mindsdb.com/ \
     Your plan: demo \
