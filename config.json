@@ -1,0 +1,15 @@
+{
+    "mindsdb" : [
+        {
+            "session" : "",
+            "sql_queries" : ""
+        }
+    ],
+    
+    "mailru" : [
+        {
+            "login" : "",
+            "password" : ""
+        }
+    ]
+}
